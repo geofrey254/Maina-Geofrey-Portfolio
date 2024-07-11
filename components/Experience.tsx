@@ -33,7 +33,7 @@ export default function Experience() {
             <div className="w-full">
               <TabsContent value="education" className="w-full">
                 <div className="flex flex-col gap-4 text-left mb-12">
-                  <h2 className="text-4xl font-bold text-white flex gap-6">
+                  <h2 className="text-4xl font-bold text-white flex gap-6 ">
                     {EDUCATION.title}
                     <span>
                       <MdSchool size={40} />

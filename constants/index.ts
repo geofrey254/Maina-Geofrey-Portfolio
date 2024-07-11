@@ -113,7 +113,7 @@ export const SERVICES = [
     id: 1,
     name: "Web Development",
     description:
-      "i provide top-notch software development services tailored to your unique needs. Our expertise spans web and mobile applications, custom software solutions, and seamless integration of advanced technologies to drive your business forward.",
+      "I provide top-notch software development services tailored to your unique needs. Our expertise spans web and mobile applications, custom software solutions, and seamless integration of advanced technologies to drive your business forward.",
   },
 
   {
