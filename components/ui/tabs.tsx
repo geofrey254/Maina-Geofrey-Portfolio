@@ -12,10 +12,7 @@ const Tabs = React.forwardRef<
   <TabsPrimitive.Root
     orientation="vertical"
     ref={ref}
-    className={cn(
-      "flex rounded-md p-1 border-3 border-white text-muted-foreground gap-1",
-      className
-    )}
+    className={cn("flex rounded-md p-1 text-muted-foreground gap-1", className)}
     {...props}
   />
 ));
@@ -40,7 +37,7 @@ const TabsTrigger = React.forwardRef<
   <TabsPrimitive.Trigger
     ref={ref}
     className={cn(
-      "inline-flex items-center w-full bg-[#29AFDE] justify-center whitespace-nowrap text-white rounded-lg p-3 text-balance font-medium ring-offset-background transition-all disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-accent-red-50 data-[state=active]:text-gray-900 data-[state=active]:font-semibold data-[state=active]:shadow-sm",
+      "inline-flex items-center w-full bg-[#29AFDE] justify-center whitespace-nowrap text-white rounded-lg p-3 text-balance font-medium ring-offset-background transition-all disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-accent-red-50 data-[state=active]:border-2 data-[state=active]:border-[#0d3875ac] data-[state=active]:bg-[#ffffff] data-[state=active]:text-[#2A9FDE] data-[state=active]:font-semibold data-[state=active]:shadow-sm",
       className
     )}
     {...props}
