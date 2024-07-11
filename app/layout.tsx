@@ -1,29 +1,11 @@
 import type { Metadata } from "next";
-import { Inter, Poppins, Montserrat, Sora } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
-const poppins = Poppins({
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font-poppins",
-});
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-montserrat",
-});
-
-const sora = Sora({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-sora",
-});
 
 export const metadata: Metadata = {
   title: "Maina Geofrey",
@@ -37,11 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={
-          "${poppins.variable} ${montserrat.variable} ${sora.variable}"
-        }
-      >
+      <body className={"m-plus"}>
         <Navbar />
         {children}
       </body>

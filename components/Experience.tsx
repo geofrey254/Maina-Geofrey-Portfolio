@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import { motion, useScroll } from "framer-motion";
-import { EXPERIENCE, EDUCATION, SKILLS, SERVICES, ABOUT } from "@/constants";
+import { EXPERIENCE, EDUCATION, SKILLS, ABOUT } from "@/constants";
 import { useState } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -11,8 +11,9 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { MdSchool } from "react-icons/md";
 import { SiJavascript, SiPython, SiC, SiReact } from "react-icons/si";
 import { BiLogoTypescript, BiLogoPostgresql } from "react-icons/bi";
-import { RiNextjsFill } from "react-icons/ri";
+import { RiNextjsFill, RiFolderUnknowFill } from "react-icons/ri";
 import { GiSkills } from "react-icons/gi";
+import { FcAbout } from "react-icons/fc";
 
 export default function Experience() {
   return (
@@ -27,8 +28,7 @@ export default function Experience() {
               <TabsTrigger value="education">Education</TabsTrigger>
               <TabsTrigger value="experience">Experience</TabsTrigger>
               <TabsTrigger value="skills">Skills</TabsTrigger>
-              <TabsTrigger value="About">About</TabsTrigger>
-              <TabsTrigger value="services">Services</TabsTrigger>
+              <TabsTrigger value="about">About</TabsTrigger>
             </TabsList>
             <div className="w-full">
               <TabsContent value="education" className="w-full">
@@ -133,7 +133,26 @@ export default function Experience() {
                   </ScrollArea>
                 </div>
               </TabsContent>
-              <TabsContent value="services" className="w-full"></TabsContent>
+              {/* ABOUT SECTION */}
+              <TabsContent value="about" className="w-full">
+                <div className="flex flex-col gap-4 text-left mb-12">
+                  <h2 className="text-4xl font-bold text-white flex gap-6">
+                    {ABOUT.name}
+                    <span>
+                      <RiFolderUnknowFill size={40} color="white" />
+                    </span>
+                  </h2>
+                  <span className="text-white text-sm mt-4 font-extralight italic flex md:hidden">
+                    Scroll to view more...
+                  </span>
+                  <hr className="mt-2 md:mt-4" />
+                  <ScrollArea className="h-[320px] md:h-[380px] mt-4 md:mt-12 bg-[#094260] rounded-xl p-4 md:p-8 shadow-xl shadow-red-200">
+                    <p className="text-white shadow-sm text-lg">
+                      {ABOUT.description}
+                    </p>
+                  </ScrollArea>
+                </div>
+              </TabsContent>
             </div>
           </Tabs>
         </div>

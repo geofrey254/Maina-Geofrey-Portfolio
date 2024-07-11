@@ -1,10 +1,9 @@
-export const ABOUT = [
-  {
-    name: "About me",
-    description:
-      "Hello! I'm Geofrey Maina</span>, a passionate self-taught software developer hailing from the vibrant city of Nairobi, Kenya. My ourney into the world of coding began in 2019, and since then, I've been continuously honing my skills and expanding my expertise. Currently, I'm pursuing a degree in Computer Science at St. Paul's University, where I'm deepening my understanding of the theoretical foundations of computing. In the realm of software development, my primary tools of the trade are React and Next.js, which I utilize to create dynamic, high-performance web applications. Additionally, I am proficient in Python and Django, enabling me to build robust and scalable backend systems. My portfolio as a freelancer showcases a wide array of projects that highlight my versatility and commitment to delivering top-notch solutions. Beyond coding, I have a creative streak that I channel through graphic design and video editing. I'm adept with Adobe tools, which I use to craft visually appealing graphics and compelling video content. Whether I'm developing a complex web application or designing a captivating graphic, I approach each project with enthusiasm and a dedication to excellence. I invite you to explore my portfolio and see the diverse range of work that defines my journey as a developer and designer. Thank you for visiting my site! Feel free to reach out if you'd like to collaborate or just want to say hello.",
-  },
-];
+export const ABOUT = {
+  name: "About me",
+  description:
+    "Hello! I'm Geofrey Maina, a passionate self-taught software developer hailing from the vibrant city of Nairobi, Kenya. My ourney into the world of coding began in 2019, and since then, I've been continuously honing my skills and expanding my expertise. Currently, I'm pursuing a degree in Computer Science at St. Paul's University, where I'm deepening my understanding of the theoretical foundations of computing. In the realm of software development, my primary tools of the trade are React and Next.js, which I utilize to create dynamic, high-performance web applications. Additionally, I am proficient in Python and Django, enabling me to build robust and scalable backend systems. My portfolio as a freelancer showcases a wide array of projects that highlight my versatility and commitment to delivering top-notch solutions. Beyond coding, I have a creative streak that I channel through graphic design and video editing. I'm adept with Adobe tools, which I use to craft visually appealing graphics and compelling video content. Whether I'm developing a complex web application or designing a captivating graphic, I approach each project with enthusiasm and a dedication to excellence. I invite you to explore my portfolio and see the diverse range of work that defines my journey as a developer and designer. Thank you for visiting my site! Feel free to reach out if you'd like to collaborate or just want to say hello.",
+};
+
 export const EXPERIENCE = {
   name: "My Experience",
   description:
@@ -113,18 +112,21 @@ export const SERVICES = [
   {
     id: 1,
     name: "Web Development",
-    description: "erviabreivba;erbv ae kjrebvilareilvarelibaleiruavliebvurel",
+    description:
+      "i provide top-notch software development services tailored to your unique needs. Our expertise spans web and mobile applications, custom software solutions, and seamless integration of advanced technologies to drive your business forward.",
   },
 
   {
     id: 2,
     name: "Graphic Design",
-    description: "erviabreivba;erbv ae kjrebvilareilvarelibaleiruavliebvurel",
+    description:
+      "Transform your ideas into visually stunning designs. We offer bespoke branding, logo creation, and marketing materials that captivate and engage your audience. Elevate your business with our professional graphic design solutions.",
   },
 
   {
     id: 3,
     name: "Video Editing",
-    description: "erviabreivba;erbv ae kjrebvilareilvarelibaleiruavliebvurel",
+    description:
+      " Transform your raw footage into captivating videos with our expert video editing services. Whether it is for promotional content, social media, or personal projects, we ensure  professional quality, creativity, and timely delivery to bring your vision to life.",
   },
 ];

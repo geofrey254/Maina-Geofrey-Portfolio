@@ -23,24 +23,29 @@ export default function Navbar() {
   const handleNav = () => {
     setmenuOpen(!menuOpen);
   };
+  const handleLinkClick = () => {
+    setmenuOpen(false);
+  };
   return (
     <nav className="navbar fixed w-full h-24 z-5 bg-special z-40">
       <div className="flex justify-between items-center h-full w-full">
         {/* Left side of the navbar */}
         <div className="left-side pr-4 md:pr-6 2xl:px-16 flex">
-          <Image
-            src="/logo.png"
-            width={200}
-            height={200}
-            alt="Geofrey Maina's logo"
-            className="scale-75 md:scale-75"
-          />
+          <Link href="/">
+            <Image
+              src="/logo.png"
+              width={200}
+              height={200}
+              alt="Geofrey Maina's logo"
+              className="scale-75 md:scale-75"
+            />
+          </Link>
         </div>
         {/* Center of Navbar */}
         <div className="center-nav hidden sm:flex">
           <ul className="flex space-x-16 text-gray-600">
             <li className="font-semibold hover:text-gray-900">
-              <Link href="#" className="cursor-default flex">
+              <Link href="/services" className="cursor-default flex">
                 <FaFileContract className="mr-2" size={25} />
                 Services
               </Link>
@@ -108,30 +113,50 @@ export default function Navbar() {
         >
           <ul className="flex flex-col text-xl space-y-12 pt-6 pl-6 text-white">
             <li className="font-semibold">
-              <Link href="#" className="cursor-default flex">
+              <Link
+                href="/services"
+                className="cursor-default flex"
+                onClick={handleLinkClick}
+              >
                 <FaFileContract className="mr-2" size={25} />
                 Services
               </Link>
             </li>
             <li className="font-semibold">
-              <Link href="#" className="cursor-default flex">
+              <Link
+                href="#"
+                className="cursor-default flex"
+                onClick={handleLinkClick}
+              >
                 <CgWebsite className="mr-2" size={25} />
                 Works
               </Link>
             </li>
             <li className="font-semibold">
-              <Link href="#" className="cursor-default flex">
+              <Link
+                href="#"
+                className="cursor-default flex"
+                onClick={handleLinkClick}
+              >
                 <MdContactMail className="mr-2" size={25} /> Resume
               </Link>
             </li>
             <li className="font-semibold">
-              <Link href="#" className="cursor-default flex">
+              <Link
+                href="#"
+                className="cursor-default flex"
+                onClick={handleLinkClick}
+              >
                 <GiSkills className="mr-2" size={25} />
                 Skills
               </Link>
             </li>
             <li className="font-semibold">
-              <Link href="#" className="cursor-default flex">
+              <Link
+                href="#"
+                className="cursor-default flex"
+                onClick={handleLinkClick}
+              >
                 <MdOutlineConnectWithoutContact className="mr-2" size={25} />
                 Contact
               </Link>
