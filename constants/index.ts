@@ -1,3 +1,5 @@
+import { url } from "inspector";
+
 export const ABOUT = {
   name: "About me",
   description:
@@ -120,13 +122,43 @@ export const SERVICES = [
     id: 2,
     name: "Graphic Design",
     description:
-      "Transform your ideas into visually stunning designs. We offer bespoke branding, logo creation, and marketing materials that captivate and engage your audience. Elevate your business with our professional graphic design solutions.",
+      "Transform your ideas into visually stunning designs. I offer bespoke branding, logo creation, and marketing materials that captivate and engage your audience. Elevate your business with our professional graphic design solutions.",
   },
 
   {
     id: 3,
     name: "Video Editing",
     description:
-      " Transform your raw footage into captivating videos with our expert video editing services. Whether it is for promotional content, social media, or personal projects, we ensure  professional quality, creativity, and timely delivery to bring your vision to life.",
+      " Transform your raw footage into captivating videos with our expert video editing services. Whether it is for promotional content, social media, or personal projects, I ensure  professional quality, creativity, and timely delivery to bring your vision to life.",
+  },
+];
+
+export const PROJECTS = [
+  {
+    id: "1",
+    name: "Andego Gachagua Advocates LLP",
+    photo: "/projects/andego.png",
+    url: "https://www.andegogachagua.com",
+  },
+
+  {
+    id: "2",
+    name: "Anima MedTours",
+    photo: "/projects/anima.png",
+    url: "https://www.animamedtours.com",
+  },
+
+  {
+    id: "3",
+    name: "Uthiru Ruthimitu Ward",
+    photo: "/projects/uthimitu.png",
+    url: "/",
+  },
+
+  {
+    id: "4",
+    name: "St.Teresa Hospital Kikuyu",
+    photo: "/projects/teresa.png",
+    url: "/",
   },
 ];

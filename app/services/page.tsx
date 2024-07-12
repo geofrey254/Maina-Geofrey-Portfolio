@@ -16,7 +16,7 @@ export default function page() {
       {SERVICES.map((serv) => (
         <Card key={serv.id}>
           <CardHeader className="flex text-nowrap">
-            <CardTitle className="text-[#2A9FDE]">
+            <CardTitle className="text-[#2A9FDE] text-2xl md:text-base">
               <span className="montserrat rounded-full bg-[#2A9FDE] p-2 text-white">
                 {serv.id}
               </span>{" "}

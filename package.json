@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@radix-ui/react-scroll-area": "^1.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
     "@radix-ui/react-tabs": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.1.6",
     "framer-motion": "^11.2.14",
     "lucide-react": "^0.402.0",
     "next": "14.2.4",

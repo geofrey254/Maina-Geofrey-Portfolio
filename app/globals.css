@@ -197,7 +197,7 @@ section {
   opacity: 50%;
   margin-top: 5vh;
   margin-left: -0vh;
-  font-family: "M PLUS 1 Code", monospace;
+  font-family: "Poppins", monospace;
   background: -webkit-linear-gradient(#eee, #2A9FDE);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -242,4 +242,13 @@ section {
   font-family: "Bungee Outline", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.bg-image {
+  width: 100%;
+  background: url(/bg.svg) center no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
 }
