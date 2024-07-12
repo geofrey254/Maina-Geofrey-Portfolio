@@ -162,3 +162,35 @@ export const PROJECTS = [
     url: "/",
   },
 ];
+
+export const DESIGN = [
+  {
+    id: "1",
+    img: "/design/catalogue.jpg",
+  },
+
+  {
+    id: "2",
+    img: "/design/desert.jpg",
+  },
+
+  {
+    id: "3",
+    img: "/design/Lizzy.jpg",
+  },
+
+  {
+    id: "4",
+    img: "/design/tnkids.jpg",
+  },
+
+  {
+    id: "5",
+    img: "/design/tnhistory.jpg",
+  },
+
+  {
+    id: "6",
+    img: "/design/book3.jpg",
+  },
+];

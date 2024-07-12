@@ -18,7 +18,7 @@ import { GiClick } from "react-icons/gi";
 
 export default function Projects() {
   return (
-    <div className="p-2 md:p-20 bg-image">
+    <div className=" p-2 md:p-40 bg-image">
       <div className="web-projects">
         <div className="text-center mb-8">
           <h3 className="text-4xl md:text-6xl font-bold text-white ">
@@ -31,15 +31,18 @@ export default function Projects() {
         <Carousel className="">
           <CarouselContent className="">
             {PROJECTS.map((proj) => (
-              <CarouselItem key={proj.id} className="">
+              <CarouselItem
+                key={proj.id}
+                className="basis-5/6 md:basis-5/6 lg:basis-3/4"
+              >
                 <Image
                   src={proj.photo}
                   width={1400}
                   height={1400}
                   alt={proj.name}
-                  className="w-full md:h-fit border-8 border-white"
+                  className="w-full md:h-fit border-8 border-[#2A9FDE]"
                 />
-                <div className="mt-3  flex justify-center items-center">
+                <div className="mt-3 flex justify-center items-center">
                   <Link
                     href={proj.url}
                     className="bg-[#ffffff] rounded-xl p-2 text-main font-bold"
