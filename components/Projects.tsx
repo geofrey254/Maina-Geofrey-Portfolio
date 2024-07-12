@@ -28,7 +28,7 @@ export default function Projects() {
             Scroll to view
           </span>
         </div>
-        <Carousel className="p-4">
+        <Carousel className="">
           <CarouselContent className="">
             {PROJECTS.map((proj) => (
               <CarouselItem key={proj.id} className="">
@@ -37,7 +37,7 @@ export default function Projects() {
                   width={1400}
                   height={1400}
                   alt={proj.name}
-                  className="w-full md:h-5/6 border-8 border-white"
+                  className="w-full md:h-fit border-8 border-white"
                 />
                 <div className="mt-3  flex justify-center items-center">
                   <Link
