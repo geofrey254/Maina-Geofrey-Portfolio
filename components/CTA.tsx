@@ -12,7 +12,7 @@ export default function CTA() {
         <p className="px-8 md:px-80 mt-8 text-xs md:text-base text-gray-800">
           Whether you{"'"}re looking for a skilled software developer to bring
           your digital vision to life, a graphic designer to craft stunning
-          visuals, or a video editor to tell compelling stories, I'm here to
+          visuals, or a video editor to tell compelling stories, I{"'"}m here to
           help. With a passion for creativity and a commitment to excellence, I
           deliver tailored solutions that exceed expectations.
         </p>
