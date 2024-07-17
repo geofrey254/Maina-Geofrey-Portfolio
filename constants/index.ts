@@ -136,16 +136,16 @@ export const SERVICES = [
 export const PROJECTS = [
   {
     id: "1",
-    name: "Andego Gachagua Advocates LLP",
-    photo: "/projects/andego.png",
-    url: "https://www.andegogachagua.com",
+    name: "Anima MedTours",
+    photo: "/projects/anima.png",
+    url: "https://www.animamedtours.com",
   },
 
   {
     id: "2",
-    name: "Anima MedTours",
-    photo: "/projects/anima.png",
-    url: "https://www.animamedtours.com",
+    name: "Andego Gachagua Advocates LLP",
+    photo: "/projects/andego.png",
+    url: "https://www.andegogachagua.com",
   },
 
   {
