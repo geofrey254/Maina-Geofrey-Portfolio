@@ -44,10 +44,7 @@ export default function Design() {
         >
           <CarouselContent>
             {DESIGN.map((proj) => (
-              <CarouselItem
-                key={proj.id}
-                className="basis-5/6 md:basis-5/6 lg:basis-3/4"
-              >
+              <CarouselItem key={proj.id} className="pt-1 md:basis-1/2">
                 <div className="p-1">
                   <Card>
                     <CardContent className="flex aspect-square items-center justify-center p-6">

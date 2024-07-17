@@ -51,7 +51,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="font-semibold hover:text-gray-900">
-              <Link href="#" className="cursor-default flex">
+              <Link href="/#projects" className="cursor-default flex">
                 <CgWebsite className="mr-2" size={25} />
                 Works
               </Link>
@@ -63,7 +63,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="font-semibold hover:text-gray-900">
-              <Link href="#" className="cursor-default flex">
+              <Link href="/#skills" className="cursor-default flex">
                 <GiSkills className="mr-2" size={25} />
                 Skills
               </Link>
@@ -79,7 +79,7 @@ export default function Navbar() {
         {/* Right side nav */}
         <div className="right-side flex">
           <Link
-            href="#"
+            href="resume.pdf"
             className="nav-btn flex text-white name font-bold mr-4"
           >
             Resume <BiDownload className="text-xl ml-2 p-.5" />
@@ -124,7 +124,7 @@ export default function Navbar() {
             </li>
             <li className="font-semibold">
               <Link
-                href="#"
+                href="/#projects"
                 className="cursor-default flex"
                 onClick={handleLinkClick}
               >
@@ -143,7 +143,7 @@ export default function Navbar() {
             </li>
             <li className="font-semibold">
               <Link
-                href="#"
+                href="/#skills"
                 className="cursor-default flex"
                 onClick={handleLinkClick}
               >

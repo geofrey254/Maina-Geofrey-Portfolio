@@ -19,7 +19,7 @@ import { GiClick } from "react-icons/gi";
 
 export default function Projects() {
   return (
-    <div className="p-2 md:p-4 bg-image">
+    <div className="p-2 md:p-4 bg-image" id="projects">
       <div className="text-center mb-8">
         <h3 className="text-4xl md:text-6xl font-bold text-white">
           WEB PROJECTS

@@ -19,9 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={"m-plus"}>
+      <body className="m-plus">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
