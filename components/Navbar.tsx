@@ -64,7 +64,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="font-semibold hover:text-gray-900">
-              <Link href="#" className="cursor-default flex">
+              <Link href="/contact" className="cursor-default flex">
                 <MdOutlineConnectWithoutContact className="mr-2" size={25} />
                 Contact
               </Link>
@@ -106,7 +106,7 @@ export default function Navbar() {
               : "fixed collapse h-1/2 transition duration-700 ease-in-out"
           }
         >
-          <ul className="flex flex-col text-xl space-y-12 pt-6 pl-6 text-white">
+          <ul className="flex flex-col text-xl space-y-12 pt-14 pl-6 text-white">
             <li className="font-semibold">
               <Link
                 href="/services"
@@ -139,7 +139,7 @@ export default function Navbar() {
             </li>
             <li className="font-semibold">
               <Link
-                href="#"
+                href="/contact"
                 className="cursor-default flex"
                 onClick={handleLinkClick}
               >

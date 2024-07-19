@@ -1,7 +1,12 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { FaLinkedinIn, FaFacebookF, FaGithub } from "react-icons/fa";
+import {
+  FaLinkedinIn,
+  FaFacebookF,
+  FaGithub,
+  FaInstagram,
+} from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import { TfiInstagram } from "react-icons/tfi";
 
