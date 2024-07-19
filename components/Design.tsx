@@ -26,7 +26,7 @@ import { GiClick } from "react-icons/gi";
 
 export default function Design() {
   return (
-    <div className="design-projects section-padding-100-70 bg-design">
+    <div className="design-projects bg-design">
       <div className="text-center mb-8">
         <h3 className="text-4xl md:text-6xl font-bold text-main">
           DESIGN PROJECTS
@@ -40,9 +40,9 @@ export default function Design() {
           opts={{
             align: "start",
           }}
-          className="w-full max-w-4xl"
+          className="w-full md:max-w-3xl xl:max-w-5xl"
         >
-          <CarouselContent>
+          <CarouselContent className="-mt-1 h-[300px] md:h-[400px] xl:h-[600px]">
             {DESIGN.map((proj) => (
               <CarouselItem key={proj.id} className="pt-1 md:basis-1/2">
                 <div className="p-1">

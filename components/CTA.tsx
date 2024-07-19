@@ -7,7 +7,7 @@ import { TfiInstagram } from "react-icons/tfi";
 
 export default function CTA() {
   return (
-    <div className="bg-cta flex-0 md:flex justify-around items-center text-left px-12 md:px-96 py-0 md:py-20">
+    <div className="bg-cta flex-0 md:flex justify-around items-center text-left px-12 md:px-9 xl:px-9 py-0 md:py-20">
       <div className="right-side">
         <h2 className="text-2xl md:text-5xl poppins font-semibold text-white w-full md:w-4/6 ">
           Ready to Bring Your Vision to Life?

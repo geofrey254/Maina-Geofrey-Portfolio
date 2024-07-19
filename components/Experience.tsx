@@ -22,7 +22,7 @@ export default function Experience() {
         <div className="container mx-auto">
           <Tabs
             defaultValue="education"
-            className="flex flex-col xl:flex-row gap-[60px] p-4"
+            className="flex flex-col md:flex-row gap-[60px] p-4"
           >
             <TabsList className="flex flex-col w-full max-w-[340px] mx-auto xl:mx-0 gap-6 md:gap-16">
               <TabsTrigger value="education">Education</TabsTrigger>

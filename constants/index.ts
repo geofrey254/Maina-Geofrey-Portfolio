@@ -171,26 +171,51 @@ export const DESIGN = [
 
   {
     id: "2",
-    img: "/design/desert.jpg",
+    img: "/design/uda.png",
   },
 
   {
     id: "3",
-    img: "/design/Lizzy.jpg",
+    img: "/design/anima.png",
   },
 
   {
     id: "4",
-    img: "/design/tnkids.jpg",
+    img: "/design/flyer_anim.png",
   },
 
   {
     id: "5",
-    img: "/design/tnhistory.jpg",
+    img: "/design/coke.png",
   },
 
   {
     id: "6",
+    img: "/design/house.png",
+  },
+
+  {
+    id: "7",
+    img: "/design/chan.webp",
+  },
+
+  {
+    id: "8",
+    img: "/design/tnkids.jpg",
+  },
+
+  {
+    id: "9",
+    img: "/design/flyer.png",
+  },
+
+  {
+    id: "10",
+    img: "/design/tnhistory.jpg",
+  },
+
+  {
+    id: "11",
     img: "/design/book3.jpg",
   },
 ];

@@ -34,7 +34,7 @@ export default function Projects() {
             align: "start",
           }}
           orientation="horizontal"
-          className="w-full max-w-7xl"
+          className="w-full md:max-w-6xl xl:max-w-6xl"
         >
           <CarouselContent className="-mt-1 h-[300px] md:h-[400px]">
             {PROJECTS.map((proj, id) => (
