@@ -73,10 +73,27 @@ export default function page() {
               <CardTitle className="text-gray-600 text-xl">Socials</CardTitle>
             </CardHeader>
             <CardContent className="flex gap-4">
-              <FaLinkedin size={40} className="text-[#0077B5]" />
-              <FaFacebookF size={40} className="text-[#4267B2]" />
-              <FaInstagram size={40} className="text-[#E4405F]" />
-              <FaSquareXTwitter size={40} className="text-[#0077B5]" />
+              <Link
+                href="https://www.linkedin.com/in/geoffrey-maina-5888a31b4/"
+                className="hover:scale-150"
+              >
+                <FaLinkedin size={40} className="text-[#0077B5]" />
+              </Link>
+              <Link
+                href="https://www.facebook.com/profile.php?id=100004500649132"
+                className="hover:scale-150"
+              >
+                <FaFacebookF size={40} className="text-[#4267B2]" />
+              </Link>
+              <Link
+                href="https://www.instagram.com/_njuguna_wa_mainah/"
+                className="hover:scale-150"
+              >
+                <FaInstagram size={40} className="text-[#E4405F]" />
+              </Link>
+              <Link href="#" className="hover:scale-150">
+                <FaSquareXTwitter size={40} className="text-[#0077B5]" />
+              </Link>
             </CardContent>
           </Card>
         </div>

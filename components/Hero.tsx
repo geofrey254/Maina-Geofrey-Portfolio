@@ -41,7 +41,7 @@ export default function Hero() {
         <div className="links mt-8 flex md:gap-24">
           <div className="hire-me">
             <Link
-              href="#"
+              href="/contact"
               className="hire-link py-2 pl-4 pr-2 color-1 font-semibold flex text-white"
             >
               Hire me!

@@ -53,7 +53,7 @@ export default function Design() {
                         width={500}
                         height={500}
                         alt="photo"
-                        className="w-full md:h-fit border-8 border-white"
+                        className="w-full md:h-fit border-8 border-white hover:scale-95"
                       />
                     </CardContent>
                   </Card>

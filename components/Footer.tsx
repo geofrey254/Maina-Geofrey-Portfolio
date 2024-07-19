@@ -38,22 +38,31 @@ export default function Footer() {
         <div className="links">
           <ul className="flex gap-4 text-[#2a9fde] scale-75 md:scale-100">
             <li>
-              <Link href="#" className="">
+              <Link href="https://github.com/geofrey254" className="">
                 <FaGithub size={25} />
               </Link>
             </li>
             <li>
-              <Link href="#" className="">
+              <Link
+                href="https://www.linkedin.com/in/geoffrey-maina-5888a31b4/"
+                className=""
+              >
                 <FaLinkedinIn size={25} />
               </Link>
             </li>
             <li>
-              <Link href="#" className="">
+              <Link
+                href="https://www.instagram.com/_njuguna_wa_mainah/"
+                className=""
+              >
                 <TfiInstagram size={25} />
               </Link>
             </li>
             <li>
-              <Link href="#" className="">
+              <Link
+                href="https://www.facebook.com/profile.php?id=100004500649132"
+                className=""
+              >
                 <FaFacebookF size={25} />
               </Link>
             </li>
