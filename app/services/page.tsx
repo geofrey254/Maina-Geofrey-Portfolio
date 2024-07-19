@@ -10,22 +10,26 @@ import {
 import Link from "next/link";
 import { SERVICES } from "@/constants";
 
+import { TfiInstagram } from "react-icons/tfi";
+
 export default function page() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 py-40 md:py-64 px-8 bg-[#2A9FDE]">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 py-40 md:py-64 px-8 bg-image">
       {SERVICES.map((serv) => (
-        <Card key={serv.id}>
+        <Card key={serv.id} className="bg-[#1d87c0d3] rounded-xl shadow-inner">
           <CardHeader className="flex text-nowrap">
-            <CardTitle className="text-[#2A9FDE] text-2xl md:text-base">
-              <span className="montserrat rounded-full bg-[#2A9FDE] p-2 text-white">
+            <CardTitle className="text-white text-2xl">
+              <span className="montserrat rounded-full bg-[#6abfec] p-2 text-white">
                 {serv.id}
               </span>{" "}
               {serv.name}
             </CardTitle>
-            <CardDescription className="pt-5 px-3">{serv.name}</CardDescription>
+            <CardDescription className="pt-5 px-3 text-gray-900">
+              {serv.name}
+            </CardDescription>
           </CardHeader>
           <CardContent>
-            <p>{serv.description}</p>
+            <p className="text-white/85">{serv.description}</p>
           </CardContent>
         </Card>
       ))}

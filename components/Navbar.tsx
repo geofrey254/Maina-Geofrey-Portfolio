@@ -56,12 +56,7 @@ export default function Navbar() {
                 Works
               </Link>
             </li>
-            <li className="font-semibold hover:text-gray-900">
-              <Link href="#" className="cursor-default flex">
-                <MdContactMail className="mr-2" size={25} />
-                Resume
-              </Link>
-            </li>
+
             <li className="font-semibold hover:text-gray-900">
               <Link href="/#skills" className="cursor-default flex">
                 <GiSkills className="mr-2" size={25} />
@@ -130,15 +125,6 @@ export default function Navbar() {
               >
                 <CgWebsite className="mr-2" size={25} />
                 Works
-              </Link>
-            </li>
-            <li className="font-semibold">
-              <Link
-                href="#"
-                className="cursor-default flex"
-                onClick={handleLinkClick}
-              >
-                <MdContactMail className="mr-2" size={25} /> Resume
               </Link>
             </li>
             <li className="font-semibold">
