@@ -31,7 +31,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center h-full w-full">
         {/* Left side of the navbar */}
         <div className="left-side pr-4 md:pr-6 2xl:px-16 flex">
-          <Link href="/">
+          <Link href="/" onClick={handleLinkClick}>
             <Image
               src="/logo.png"
               width={200}
