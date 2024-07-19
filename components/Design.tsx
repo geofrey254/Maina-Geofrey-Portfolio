@@ -40,20 +40,20 @@ export default function Design() {
           opts={{
             align: "start",
           }}
-          className="w-full md:max-w-3xl xl:max-w-5xl"
+          className="max-w-[22rem] md:max-w-3xl xl:max-w-5xl p-2"
         >
-          <CarouselContent className="-mt-1 h-[300px] md:h-[400px] xl:h-[600px]">
+          <CarouselContent className="-mt-1 h-[350px] md:h-[400px] xl:h-[600px]">
             {DESIGN.map((proj) => (
               <CarouselItem key={proj.id} className="pt-1 md:basis-1/2">
                 <div className="p-1">
                   <Card>
-                    <CardContent className="flex aspect-square items-center justify-center p-6">
+                    <CardContent className="flex aspect-square items-center justify-center">
                       <Image
                         src={proj.img}
                         width={500}
                         height={500}
                         alt="photo"
-                        className="w-full md:h-fit border-8 border-white hover:scale-95"
+                        className="w-full md:h-fit border-8 border-white scale-100"
                       />
                     </CardContent>
                   </Card>
