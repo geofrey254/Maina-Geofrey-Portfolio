@@ -203,6 +203,10 @@ export const PROJECTS = [
 export const DESIGN = [
   {
     id: "1",
+    img: "/design/mayad.png",
+  },
+  {
+    id: "1",
     img: "/design/catalogue.jpg",
   },
 
