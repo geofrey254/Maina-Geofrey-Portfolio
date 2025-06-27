@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { PROJECTS } from "@/constants";
-import AutoPlay from "embla-carousel-autoplay";
+import Autoplay from "embla-carousel-autoplay";
 
 import {
   Carousel,
@@ -35,6 +35,11 @@ export default function Projects() {
           opts={{
             align: "start",
           }}
+          plugins={[
+            Autoplay({
+              delay: 2000,
+            }),
+          ]}
           orientation="horizontal"
           className="w-full md:max-w-5xl xl:max-w-6xl"
         >
@@ -49,7 +54,7 @@ export default function Projects() {
                         width={1200}
                         height={1200}
                         alt={proj.name}
-                        className="w-full md:h-fit border-8 rounded-xl border-[#29afde] shadow-lg shadow-white"
+                        className="w-full lg:h-60 xl:h-72 border-8 rounded-xl border-[#29afde] shadow-lg shadow-white"
                       ></Image>
                     </CardContent>
                     <CardFooter className="flex justify-center items-center">

@@ -135,17 +135,55 @@ export const SERVICES = [
 
 export const PROJECTS = [
   {
+    id: "0",
+    name: "Mayad World",
+    photo: "/projects/mayad.jpg",
+    url: "https://www.mayadworld.com",
+  },
+  {
+    id: "1",
+    name: "Vivid Analytics",
+    photo: "/projects/vividanalytics.jpg",
+    url: "https://www.vividanalytics.co",
+  },
+  {
+    id: "2",
+    name: "Andego Gachagua Advocates LLP",
+    photo: "/projects/andego.jpg",
+    url: "https://www.andegogachagua.com",
+  },
+  {
+    id: "3",
+    name: "Lilan Kichwen Kadima Advocates LLP",
+    photo: "/projects/lilan.jpg",
+    url: "https://www.lilankichwenkadima.com/",
+  },
+
+  {
+    id: "5",
+    name: "Neobridge",
+    photo: "/projects/neobridge.jpg",
+    url: "https://neobridgeltd.vercel.app/",
+  },
+  {
+    id: "5",
+    name: "Maina Geofrey Portfolio",
+    photo: "/projects/jay.jpg",
+    url: "https://maina-geofrey.vercel.app/",
+  },
+
+  {
+    id: "4",
+    name: "Hon. Maina Osama Portfolio",
+    photo: "/projects/maina.jpg",
+    url: "https://www.mainaosama.com/",
+  },
+
+  {
     id: "1",
     name: "Anima MedTours",
     photo: "/projects/anima.png",
     url: "https://www.animamedtours.com",
-  },
-
-  {
-    id: "2",
-    name: "Andego Gachagua Advocates LLP",
-    photo: "/projects/andego.png",
-    url: "https://www.andegogachagua.com",
   },
 
   {
