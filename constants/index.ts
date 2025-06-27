@@ -185,14 +185,6 @@ export const PROJECTS = [
     photo: "/projects/anima.png",
     url: "https://www.animamedtours.com",
   },
-
-  {
-    id: "3",
-    name: "Maxtech Solutions",
-    photo: "/projects/maxtech.png",
-    url: "https://maxtechtechnologysolutions.vercel.app/",
-  },
-
   {
     id: "4",
     name: "Uthiru Ruthimitu Ward",
@@ -205,13 +197,6 @@ export const PROJECTS = [
     name: "MyStage App",
     photo: "/projects/mystage.png",
     url: "https://mystage.vercel.app/",
-  },
-
-  {
-    id: "6",
-    name: "St.Teresa Hospital Kikuyu",
-    photo: "/projects/teresa.png",
-    url: "/",
   },
 ];
 
