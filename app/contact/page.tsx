@@ -63,7 +63,7 @@ export default function page() {
               </div>
               <div className="flex items-center">
                 <FaPhone className="mr-2 h-4 w-4" />
-                <p>+254 742 954513</p>
+                <p>+254 757 807097</p>
               </div>
             </CardContent>
           </Card>

@@ -28,7 +28,7 @@ export default function Design() {
   return (
     <div className="design-projects bg-design">
       <div className="text-center mb-8">
-        <h3 className="text-4xl md:text-6xl font-bold text-main">
+        <h3 className="text-4xl md:text-5xl font-bold text-main">
           DESIGN PROJECTS
         </h3>
         <span className="text-gray-900 text-sm font-extralight italic">
@@ -40,9 +40,9 @@ export default function Design() {
           opts={{
             align: "start",
           }}
-          className="max-w-[22rem] md:max-w-3xl xl:max-w-5xl p-2"
+          className="w-full md:max-w-5xl xl:max-w-6xl p-2"
         >
-          <CarouselContent className="-mt-1 h-[350px] md:h-[400px] xl:h-[600px]">
+          <CarouselContent className="">
             {DESIGN.map((proj) => (
               <CarouselItem key={proj.id} className="pt-1 md:basis-1/2">
                 <div className="p-1">
@@ -53,7 +53,7 @@ export default function Design() {
                         width={500}
                         height={500}
                         alt="photo"
-                        className="w-full md:h-fit border-8 border-white scale-100"
+                        className="w-full md:h-fit border-8 border-white"
                       />
                     </CardContent>
                   </Card>

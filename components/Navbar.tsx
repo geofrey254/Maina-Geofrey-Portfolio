@@ -17,6 +17,7 @@ import { BiDownload, BiWindowClose } from "react-icons/bi";
 import { CgMenuOreos, CgWebsite } from "react-icons/cg";
 import { MdContactMail, MdOutlineConnectWithoutContact } from "react-icons/md";
 import { GiSkills } from "react-icons/gi";
+import { HiHomeModern } from "react-icons/hi2";
 
 export default function Navbar() {
   const [menuOpen, setmenuOpen] = useState(false);
@@ -44,6 +45,16 @@ export default function Navbar() {
         {/* Center of Navbar */}
         <div className="center-nav hidden sm:flex">
           <ul className="flex space-x-16 text-gray-600">
+            <li className="font-semibold">
+              <Link
+                href="/"
+                className="cursor-default flex"
+                onClick={handleLinkClick}
+              >
+                <HiHomeModern className="mr-2" size={25} />
+                Home
+              </Link>
+            </li>
             <li className="font-semibold hover:text-gray-900">
               <Link href="/services" className="cursor-default flex">
                 <FaFileContract className="mr-2" size={25} />
@@ -107,6 +118,16 @@ export default function Navbar() {
           }
         >
           <ul className="flex flex-col text-xl space-y-12 pt-14 pl-6 text-white">
+            <li className="font-semibold">
+              <Link
+                href="/"
+                className="cursor-default flex"
+                onClick={handleLinkClick}
+              >
+                <HiHomeModern className="mr-2" size={25} />
+                Home
+              </Link>
+            </li>
             <li className="font-semibold">
               <Link
                 href="/services"

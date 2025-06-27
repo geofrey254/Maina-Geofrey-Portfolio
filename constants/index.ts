@@ -86,20 +86,20 @@ export const SKILLS = {
     {
       id: 1,
       name: "Programming Languages",
-      description: "JavaScript, TypeScript, HTML, CSS, Python, C, Sass, SQL",
+      description: "Java, JavaScript, TypeScript, Python, Dart, C, Sass, SQL",
     },
 
     {
       id: 2,
       name: "Libraries & Frameworks",
       description:
-        "React, Next.js, Tailwind CSS, Shadcn/ui, Bootstrap,Framer Motion, Styles Components,Django",
+        "React, Next.js, Payload CMS, Flutter, Tailwind CSS, Shadcn/ui, Bootstrap, Framer Motion, Styles Components, Django",
     },
 
     {
       id: 3,
       name: "Tools & Platforms",
-      description: "Git, GitHub, Vercel, Heroku, Framer,Figma",
+      description: "Git, GitHub, Vercel, Heroku, Framer,Figma, Strapi",
     },
 
     {
@@ -150,13 +150,27 @@ export const PROJECTS = [
 
   {
     id: "3",
+    name: "Maxtech Solutions",
+    photo: "/projects/maxtech.png",
+    url: "https://maxtechtechnologysolutions.vercel.app/",
+  },
+
+  {
+    id: "4",
     name: "Uthiru Ruthimitu Ward",
     photo: "/projects/uthimitu.png",
     url: "/",
   },
 
   {
-    id: "4",
+    id: "5",
+    name: "MyStage App",
+    photo: "/projects/mystage.png",
+    url: "https://mystage.vercel.app/",
+  },
+
+  {
+    id: "6",
     name: "St.Teresa Hospital Kikuyu",
     photo: "/projects/teresa.png",
     url: "/",

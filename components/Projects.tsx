@@ -1,8 +1,10 @@
+"use client";
 import React from "react";
 
 import Image from "next/image";
 import Link from "next/link";
 import { PROJECTS } from "@/constants";
+import AutoPlay from "embla-carousel-autoplay";
 
 import {
   Carousel,
@@ -19,9 +21,9 @@ import { GiClick } from "react-icons/gi";
 
 export default function Projects() {
   return (
-    <div className="p-2 md:p-4 bg-image" id="projects">
+    <section className="p-2 bg-image" id="projects">
       <div className="text-center mb-8">
-        <h3 className="text-4xl md:text-6xl font-bold text-white">
+        <h3 className="text-4xl md:text-5xl font-bold text-white">
           WEB PROJECTS
         </h3>
         <span className="text-gray-200 text-sm font-extralight italic">
@@ -34,9 +36,9 @@ export default function Projects() {
             align: "start",
           }}
           orientation="horizontal"
-          className="w-full md:max-w-6xl xl:max-w-6xl"
+          className="w-full md:max-w-5xl xl:max-w-6xl"
         >
-          <CarouselContent className="-mt-1 h-[300px] md:h-[400px]">
+          <CarouselContent className="">
             {PROJECTS.map((proj, id) => (
               <CarouselItem key={id} className="pt-1 md:basis-1/2">
                 <div className="p-1">
@@ -66,6 +68,6 @@ export default function Projects() {
           <CarouselNext />
         </Carousel>
       </div>
-    </div>
+    </section>
   );
 }

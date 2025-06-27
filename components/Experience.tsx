@@ -9,16 +9,27 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 
 // icons
 import { MdSchool } from "react-icons/md";
-import { SiJavascript, SiPython, SiC, SiReact } from "react-icons/si";
+import {
+  SiJavascript,
+  SiPython,
+  SiC,
+  SiReact,
+  SiDart,
+  SiFlutter,
+  SiStrapi,
+  SiPayloadcms,
+  SiDjango,
+} from "react-icons/si";
 import { BiLogoTypescript, BiLogoPostgresql } from "react-icons/bi";
 import { RiNextjsFill, RiFolderUnknowFill } from "react-icons/ri";
 import { GiSkills } from "react-icons/gi";
 import { FcAbout } from "react-icons/fc";
+import { FaJava } from "react-icons/fa";
 
 export default function Experience() {
   return (
     <motion.div>
-      <div className="bg-[#2A9FDE] text-center py-20 md:py-24 md:px-0">
+      <div className="bg-[#2A9FDE] text-center py-20 md:pt-24 md:pb-12 md:px-0">
         <div className="container mx-auto">
           <Tabs
             defaultValue="education"
@@ -111,10 +122,16 @@ export default function Experience() {
                     <SiJavascript size={30} color="white" />
                     <BiLogoTypescript size={38} color="white" />
                     <SiPython size={30} color="white" />
+                    <SiDjango size={30} color="white" />
                     <SiC size={30} color="white" />
                     <BiLogoPostgresql size={40} color="white" />
                     <SiReact size={30} color="white" />
                     <RiNextjsFill size={30} color="white" />
+                    <SiPayloadcms size={30} color="white" />
+                    <SiDart size={30} color="white" />
+                    <SiFlutter size={30} color="white" />
+                    <FaJava size={30} color="white" />
+                    <SiStrapi size={30} color="white" />
                   </div>
                   <ScrollArea className="h-[400px] mt-4 md:mt-12">
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-12">
